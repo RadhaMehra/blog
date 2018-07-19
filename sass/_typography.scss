@@ -1,0 +1,48 @@
+%heading{
+    font-family: $font-display ;
+    font-weight: 400;
+}
+.heading-1{
+ 
+}
+.heading-2{
+    @extend %heading;
+    font-size:3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.heading-3{
+    @extend %heading;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.heading-4{
+    @extend %heading;
+    font-size: 1.8rem;
+   // text-transform: uppercase;
+}
+.btn{
+    border:none;
+    text-transform: uppercase;
+    border-radius: 0;
+    background-color: $color-primary;
+    padding: 1.5rem 3rem;
+    font-family: $font-display;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    &:hover{
+        background-color: $color-primary-dark;
+        
+    }
+
+}
+
+
+// MARGIN
+
+.mb-sm{margin-bottom: 2rem;}
+.mb-md{margin-bottom: 3rem;}
+.mb-lg{margin-bottom: 4rem;}
+.mb-xl{margin-bottom: 8rem;}
